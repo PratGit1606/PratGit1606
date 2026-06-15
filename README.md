@@ -9,15 +9,16 @@
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
 ```
 
-### `< Security Researcher · Full-Stack Engineer · CTF Hacker />`
+### `< Security Researcher · AI/ML Systems Security · CTF Hacker />`
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Breaking+things+responsibly+since+2023+🔓;HackHarvard+Winner+%7C+pwn.college+Belt+Holder;SEFCOM+Lab+Researcher+%40+ASU;4.18+GPA+%7C+Barrett+Honors+College)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Finding+vulnerability+classes+in+AI+systems+🔓;Memory+Poisoning+%7C+ZK+Proofs+%7C+IaC+Security;SEFCOM+Lab+%40+ASU+%7C+Applied+Crypto+Lab;4.18+GPA+%7C+Barrett+Honors+College)](https://git.io/typing-svg)
 
 <br>
 
 [![Portfolio](https://img.shields.io/badge/◈_Portfolio-000000?style=for-the-badge&logoColor=white)](https://www.prathamhegde.com/)
-[![Resume](https://img.shields.io/badge/◈_Resume-1a1a2e?style=for-the-badge)](https://github.com/PratGit1606/PratGit1606/blob/main/PrathamResumeTech.pdf)
+[![Blog](https://img.shields.io/badge/◈_Blog-1a1a2e?style=for-the-badge)](https://prathamhegde.com/blog)
 [![LinkedIn](https://img.shields.io/badge/◈_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pratham-hegde)
+[![Twitter](https://img.shields.io/badge/◈_Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/prathamOverflow)
 [![Email](https://img.shields.io/badge/◈_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:phegde9@asu.edu)
 
 </div>
@@ -28,23 +29,22 @@
 
 ```python
 class PrathamHegde:
-    role     = ["Security Researcher", "Full-Stack Engineer"]
-    school   = "Arizona State University (Barrett Honors)"
-    belts    = ["pwn.college 🟡 Yellow", "pwn.college 🟠 Orange"]
-    wins     = ["🏆 HackHarvard Winner"]
-    lab      = "SEFCOM Lab @ ASU"
+    affiliation  = ["SEFCOM Lab @ ASU", "Applied Cryptography Lab @ ASU"]
+    degree       = "BS/MS Cybersecurity, Barrett Honors College (GPA: 4.18)"
+    graduating   = "May 2027"
+    belts        = ["pwn.college 🟡 Yellow", "pwn.college 🟠 Orange"]
+    wins         = ["🏆 HackHarvard Winner", "🏅 Fulton Schools IMPACT Award (10/5000)"]
 
-    passion  = [
-        "Binary Exploitation",
-        "LLM-powered platforms",
-        "Distributed systems",
-        "CTF challenges",
-    ]
+    active_research = {
+        "memory_poisoning":    "Cross-agent state corruption in multi-agent LLM systems",
+        "iac_security":        "LLM-generated Terraform/K8s/Dockerfiles eval via tfsec/checkov/trivy",
+        "zkLoRA":              "ZK proofs for verifiable LoRA fine-tuning (Applied Crypto Lab)",
+        "spectralquant_atk":  "Eigenbasis attacks on KV-cache compression — 91.7% success rate",
+    }
 
-    fun_fact = "I've jailbroken encrypted chat apps... for science 🔐"
+    current_bug_class = "Targeted perturbations along calibrated eigenbases outperform random noise"
+    blog_post         = "prathamhegde.com/blog/yc-api-cache-isolation"  # confirmed bounty
 ```
-
-<br clear="right"/>
 
 ---
 
@@ -54,48 +54,87 @@ class PrathamHegde:
 <tr>
 <td width="50%">
 
-#### 🌍 CarbonCompass
-`HackHarvard Winner`
+#### 🤖 PratGPT
+`Personal Orchestrator · Live`
 
-Serverless **edge-computing** climate analytics platform delivering **sub-150ms** carbon footprint estimates across globally distributed Cloudflare nodes. LLM-powered extraction via Gemini & Amazon Q.
+Telegram-based agentic system with **Gmail OAuth2 polling**, PhD application tracker, and auto-draft generation via Claude. SQLite-backed state, Railway deployment, multi-agent task routing.
 
-`Cloudflare Workers` `D1` `Gemini` `Python`
+`Python` `Telegram Bot API` `Anthropic API` `Railway` `SQLite`
+
+[`PratGPT →`](https://github.com/PratGit1606/PratGPT)
 
 </td>
 <td width="50%">
 
-#### 🚗 Sherpa
-`Distributed Systems`
+#### 🌍 CarbonCompass
+`HackHarvard Winner · 1st Place`
 
-Autonomous vehicle **inter-vehicle coordination** platform. Reduced simulated traffic congestion by **15%** via real-time WebSocket routing and Redis-backed messaging.
+Serverless **edge-computing** climate analytics at sub-150ms latency across globally distributed Cloudflare nodes. LLM-powered carbon footprint extraction via Gemini & Amazon Q.
 
-`React` `Node.js` `Redis` `WebSockets` `TomTom`
+`Cloudflare Workers` `D1` `Gemini` `Python`
+
+[`CarbonCompass →`](https://github.com/PratGit1606/CarbonCompass)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### 🔐 SecureChat
-`Security Research`
+#### 🛡️ LitePruner Security Report
+`Independent Security Analysis`
 
-Reverse-engineered a Flask/SQLite AES-ECB encrypted messaging system. Executed **XSS, ECB replay, and DHE key manipulation** attacks via Selenium automation in sandboxed environments.
+Security analysis of the LitePruner model compression API — documented attack surface, data exposure vectors, and hardening recommendations against adversarial compression inputs.
 
-`Python` `Cryptography` `Selenium` `Exploit Dev`
+`Security Research` `API Analysis` `Model Security`
+
+[`LitePruner-API-SecReport →`](https://github.com/PratGit1606/LitePruner-API-SecReport)
 
 </td>
 <td width="50%">
 
-#### 🧬 SEFCOM Research
-`Binary Exploitation`
+#### 🔍 Helios AI Briefing Agent
+`Agentic System`
 
-Automated exploits for **ASLR/PIE bypass**, shellcode injection, and **ROP chains** on real-world binaries. Reverse engineered x86/MIPS binaries using Ghidra and IDA Pro.
+Autonomous AI briefing agent that compiles, filters, and summarizes domain-specific intelligence feeds. Built for async research digests with structured output formatting.
 
-`pwntools` `GDB` `Ghidra` `IDA Pro` `MIPS`
+`Python` `LLM APIs` `Agentic Pipelines`
+
+[`Helios-AI-Briefing-Agent →`](https://github.com/PratGit1606/Helios-AI-Briefing-Agent)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### ⚙️ AiVulnBenchmark
+`Research Infrastructure`
+
+Benchmark harness for evaluating AI-generated code across security dimensions — feeds into the IaC Security Benchmark research pipeline at SEFCOM Lab.
+
+`Python` `CI/CD` `Security Tooling`
+
+[`AiVulnBenchmark →`](https://github.com/PratGit1606/AiVulnBenchmark)
+
+</td>
+<td width="50%">
+
+#### 💣 More Coming Soon!!
 
 </td>
 </tr>
 </table>
+
+---
+
+### `> cat published.log`
+
+```
+[2026]  YC Cross-Tenant Cache Isolation Bug .... CWE-200/208 | 7 findings confirmed
+        prathamhegde.com/blog/yc-api-cache-isolation
+[2026]  SpectralQuant Eigenbasis Attack ........ 91.7% success rate across layer/head/prompt combos
+        independent security finding on KV-cache compression paper
+[2026]  Todd Agriscience Recon ................. PII-in-URL, Supabase project ID, CSP misconfigs
+```
 
 ---
 
@@ -110,32 +149,38 @@ Automated exploits for **ASLR/PIE bypass**, shellcode injection, and **ROP chain
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-07405e?style=flat-square&logo=sqlite&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+#### Security & Exploitation
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![GDB](https://img.shields.io/badge/GDB-CC0000?style=flat-square)
+![Ghidra](https://img.shields.io/badge/Ghidra-2a2a2a?style=flat-square)
+![IDA Pro](https://img.shields.io/badge/IDA_Pro-4B275F?style=flat-square)
+![pwntools](https://img.shields.io/badge/pwntools-222222?style=flat-square)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square)
+![Trivy](https://img.shields.io/badge/trivy-1904DA?style=flat-square)
+![tfsec](https://img.shields.io/badge/tfsec-326CE5?style=flat-square)
+
+#### AI / ML Security
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_API-191919?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![ZK Proofs](https://img.shields.io/badge/ZK_Proofs-6B21A8?style=flat-square)
 
 #### Web & Frameworks
 ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
-
-#### Security & Reverse Engineering
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GDB](https://img.shields.io/badge/GDB-CC0000?style=flat-square)
-![Ghidra](https://img.shields.io/badge/Ghidra-2a2a2a?style=flat-square)
-![pwntools](https://img.shields.io/badge/pwntools-222222?style=flat-square)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Cryptography](https://img.shields.io/badge/Cryptography-4B0082?style=flat-square)
-
-#### AI / ML
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
 #### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0072C6?style=flat-square&logo=microsoftazure&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 </div>
 
@@ -151,24 +196,29 @@ Automated exploits for **ASLR/PIE bypass**, shellcode injection, and **ROP chain
 
 ---
 
-### `> cat achievements.log`
+### `> cat timeline.log`
 
 ```
-[2026-01] Software Dev Intern ........... Allergy Voyage (Remote)
-[2025-05] Undergraduate Researcher ....... SEFCOM Lab, ASU
-[2025-04] Web Experience Designer ........ University College, ASU
-[2024]    HackHarvard Winner ............. CarbonCompass (1st Place)
-[2024]    pwn.college Orange Belt ........ Web Security
-[2023]    pwn.college Yellow Belt ........ System Security
-[2023]    Barrett Honors College ......... Arizona State University
-[2023]    Grand Challenges Scholars ....... Arizona State University
+[2026-06]  Security Finding ................. SpectralQuant eigenbasis attack (91.7% success rate)
+[2026-06]  Bug Bounty ....................... YC cache isolation | CWE-200/208
+[2026-05]  Research Collab .................. Applied Cryptography Lab — zkLoRA w/ Prof. Chenkai Weng
+[2026-01]  Software Dev Intern .............. Allergy Voyage (Remote)
+[2025-05]  Undergraduate Researcher ......... SEFCOM Lab, ASU — IaC + Multi-Agent Security
+[2024]     HackHarvard Winner ............... CarbonCompass (1st Place, Serverless Edge)
+[2024]     Fulton Schools IMPACT Award ....... 1 of 10 selected from 5,000 students
+[2024]     Barrett Gold Standard Innovation .. Arizona State University
+[2024]     pwn.college Orange Belt .......... Web Security
+[2023]     pwn.college Yellow Belt .......... System Security
+[2023]     Barrett Honors College ........... Arizona State University (GPA: 4.18)
 ```
 
 ---
 
 <div align="center">
 
-`// Currently pursuing M.S. Cybersecurity @ ASU | Aug 2026 – May 2027`
+`// BS/MS Cybersecurity @ ASU Barrett Honors | Graduating May 2027`
+
+`// Currently: kernel exploitation (KASLR bypass, seccomp escape) · pwn.college levels 9–11`
 
 <br>
 
